@@ -3,7 +3,7 @@ all: clean compile run
 compile: main.c chess.cpp 
 	@echo "-------------------------------------------"
 	@echo "Compiling..."
-	@g++ -o test main.c chess.cpp -lm
+	@g++ -o test main.cpp chess.cpp -lm
 
 run:
 	@echo "-------------------------------------------"
